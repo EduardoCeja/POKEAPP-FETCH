@@ -1,0 +1,52 @@
+<!doctype html>
+<html lang="es">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>PokeAPI - Tabla de Pokémon</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+
+<body>
+
+  <header class="center-container">
+    <div class="info">
+      <h2>Tendencias en diseño de servicios</h2>
+      <p><strong>Actividad:</strong>Actividad integradora 1. API y servicios Web</p>
+      <p><strong>Asesor:</strong> José Francisco Jafet Pérez López</p>
+      <p><strong>Nombre:</strong> Eduardo Ceja Robles</p>
+      <p><strong>Código:</strong> 223371693</p>
+      <p><strong>Fecha:</strong> 23/02/2026</p>
+    </div>
+  </header>
+
+  <main class="app">
+    <h3>Consumo de PokeAPI</h3>
+
+  <section class="controls">
+    <div class="buttons">
+      <button id="btn5">5 registros</button>
+      <button id="btn10">10 registros</button>
+      <button id="btn20">20 registros</button>
+    </div>
+
+    <div class="search">
+      <label for="searchInput" class="search-label">Buscar por nombre:</label>
+      <input
+        id="searchInput"
+        type="text"
+        placeholder="Ej. pikachu"
+        autocomplete="off"
+      />
+    </div>
+
+    <div class="status" id="status">Selecciona una opción</div>
+  </section>
+
+    <section id="tableContainer" class="table-container">
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
